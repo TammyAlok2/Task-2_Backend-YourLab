@@ -1,5 +1,5 @@
 import express from 'express';
-import connectToDB from './configs/dbConn.js';
+import connectToDB from './src/configs/dbConn.js';
 
 
 const Port = process.env.PORT || 3000;

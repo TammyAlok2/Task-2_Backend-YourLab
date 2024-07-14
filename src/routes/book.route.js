@@ -1,7 +1,7 @@
 
 import express from "express"
 import {Router } from "express"
-import { bookRegister, getAllBooks } from "../Controllers/Book.Controllers.js"
+import { bookRegister,getAllBooks } from "../controllers/Book.Controllers.js"
 
 
 const router = Router()

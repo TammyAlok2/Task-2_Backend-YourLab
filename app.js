@@ -1,6 +1,6 @@
 import cookieParser from 'cookie-parser'
 
-
+import bookRoutes from './src/Routes/Books.Routes.js'
 import express from 'express'
 
 
@@ -16,7 +16,7 @@ app.use(cookieParser())
 
 
 
-import bookRoutes from './src/routes/Books.Routes.js'
+
 // import all the routes 
 app.use('/api/v1/books',bookRoutes)
 app.all('*', (_req, res) => {

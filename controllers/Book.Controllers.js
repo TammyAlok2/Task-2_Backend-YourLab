@@ -3,7 +3,7 @@
 // register book controllers 
 
 import asyncHandler from "../middlewares/asyncHandler.js";
-import Book from "../Models/Book.Models.js";
+import Book from "../models/Book.Models.js";
 import ApiResponse from "../utils/ApiResponse.js";
 import AppError from "../utils/AppError.js";
 
